@@ -12,6 +12,7 @@ div.actionbar2015-thumb,
 div.similar2015-users img,
 a.image_link img,
 div.image,
+div.qm-yml-users img,
 div.userinfo2015-thumb,
 img.HomeMatchCard-thumb-img,
 div.quickview-top-photo img.active,
@@ -19,6 +20,7 @@ figure.TimelineEntry-thumb,
 a.TimelineEntry-photo,
 ul#messages img,
 span.nav-user-image-thumb img,
+.qmqueue-thumb img,
 li.from_me img,
 li.to_me img {
 	visibility:hidden !important;
@@ -28,16 +30,22 @@ a.image_link span.image_wrapper.loaded {
 	opacity:0 !important;
 }
 
+div.qm-yml-users a,
 div.similar2015-users a {
 	background:gray !important;
 }
 
-div.morePhotos2015.profilesection {
-	display:none;
+div#mutual_match_modal .content,
+div.morePhotos2015.profilesection,
+div.qmcard-carousel-viewport-inner {
+	display:none !important;
 }
 
 .i-checkmark:before,
 .i-replied:before {
-	color:green;
+	color:green !important;
 }
 
+div.qm-content div.qmstack {
+	margin-bottom:-200px !important; 
+}
