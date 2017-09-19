@@ -1,0 +1,20 @@
+/*
+    This stylesheet removes match %, questions, and personality traits from OkCupid. 
+*/
+span.userinfo2015-basics-asl-location + span.userinfo2015-basics-asl-spacer,
+span.userinfo2015-basics-asl-match,
+div.match-results-cards div.percentages,
+div.quickview-top-percentage,
+ul#thread .percentages,
+div#userRows-app .userrow-percentage {
+    visibility:hidden !important;
+}
+
+aside#improve_your_matches,
+div.qvtraits,
+div.actionbar2015-info-match,
+div.qgenres2015,
+div.traits2015,
+div.cardsummary-match {
+    display:none !important;
+}
